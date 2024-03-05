@@ -1,0 +1,50 @@
+/* Header.css */
+
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: #333;
+  padding: 15px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.brand {
+  position: fixed;
+  top: 0;
+  left: 0;
+  padding: 15px;
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.links {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.link {
+  color: #fff;
+  text-decoration: none;
+  padding: 10px;
+  transition: color 0.3s ease;
+}
+
+.brand {
+  color: #fff;
+  font-size: 1.5rem;
+  font-weight: bold;
+  text-decoration: none;
+  justify-content: flex-start;
+}
+
+.link:hover {
+  color: #ffcc00;
+}
+
+.active {
+  font-weight: bold;
+}
